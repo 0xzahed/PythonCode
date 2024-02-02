@@ -30,3 +30,38 @@ print(names[2])
 names[3] = "Good Bye"
 
 print(names)
+
+# add List Item
+
+names.append(10)
+print(names)
+
+# Insert
+
+names.insert(4,"Hello world") # j index select korbo sei indexe eti add hobe and age jeta chilo seta pore pathay dibe
+print(names)
+
+# remove item from this list for spacific dlt index
+
+newlist = ["Zahed","hamja", "Shakib", 212]
+print(newlist)
+"""
+newlist.remove("Shakib")
+print(newlist)
+
+# pop() method poper modde kono index nnumber na dile direct last index dlt kore dey
+
+#newlist.pop(2)
+#newlist.pop(1)
+print(newlist)
+"""
+# del keyword
+
+del newlist[1]
+print(newlist)
+
+# clear method joto item thkbe sob remove hye jabe
+
+newlist.clear()
+
+print(newlist)
