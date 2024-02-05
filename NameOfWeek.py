@@ -1,7 +1,6 @@
 
 week = int(input("Enter week number (1-7): "))
 
-
 if week == 1:
     print("Monday")
 elif week == 2:
@@ -17,4 +16,4 @@ elif week == 6:
 elif week == 7:
     print("Sunday")
 else:
-    print("Invalid Input! Please enter a week number between 1-7.")
+    print("Invalid Input!")
