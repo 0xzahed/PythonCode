@@ -1,4 +1,3 @@
-
 week = int(input("Enter week number (1-7): "))
 
 if week == 1:
