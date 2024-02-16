@@ -2,22 +2,22 @@ a = int(input("Enter Number A : "))
 b = int(input("Enter Number B : "))
 
 Additon = a+b
-print(Additon)
+print("Additon: ",Additon)
 
 Subtraction = a - b
-print(Subtraction)
+print("Subtraction: ",Subtraction)
 
 Multiplication = a * b
-print(Multiplication)
+print("Multiplication: ",Multiplication)
 
 Division = a / b
-print(Division)
+print("Division: ",Division)
 
 Modulus = a % b
-print(Modulus)
+print("Modulus: ",Modulus)
 
 Exponentiation = a ** b
-print(Exponentiation)
+print("Exponentiation: ",Exponentiation)
 
 Floor_Division = a // b
-print(Floor_Division)
+print("Floor_Division: ",Floor_Division)
