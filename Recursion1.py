@@ -20,9 +20,6 @@ def fact(n):
 print(fact(5))
 
 """
-
- 
-
  # sum 
 
 def CalSum(n):
