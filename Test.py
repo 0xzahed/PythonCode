@@ -1,3 +1,5 @@
-x = 50
-if x >= 60:
-    print("Passed")
+total = 0
+for count in range(2,20,2):
+    total = total + count
+
+print(total)
