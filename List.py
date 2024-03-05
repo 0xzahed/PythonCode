@@ -16,6 +16,7 @@ name = ["Zahed","Shakib", "Hamja", "Faysal"]
 print(name)
 print(type(name))
 
+# change value
 name[2] = "hello"
 print(name)
 
@@ -65,3 +66,15 @@ print(newlist)
 newlist.clear()
 
 print(newlist)
+
+# user input
+
+List = []
+
+Size = int(input("Enter The Value :"))
+
+for i in range(Size):
+    List.append(input())
+print(List)
+
+
