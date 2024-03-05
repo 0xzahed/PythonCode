@@ -56,3 +56,25 @@ print(NewSet)
 NewSet.clear()
 print(NewSet)
 
+# Join Set
+
+set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3,3}
+
+set1.update(set2)
+print(set1)
+
+# Union
+set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3}
+
+set3 = set1.union(set2)
+print(set3)
+
+# Intersection
+set1 = {"a", "b" , "c", 3,2}
+set2 = {1, 2, 3}
+
+set3 = set1.intersection(set2)
+print(set3)
+
