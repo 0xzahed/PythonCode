@@ -7,4 +7,5 @@ for num in range(20, 61):
         elif num % 5 == 0:
             num += 2
         List.append(num)
+
 print(List)
