@@ -6,7 +6,7 @@ print(type(newtuple))
 print(newtuple)
 # index janar jonno but eti chng kora possible na
 """
-newtuple[1] = 20
+newtuple[1] = 20 
 print(newtuple)
 
 """
